@@ -35,5 +35,3 @@ static inline int CZlib_inflateInit2(z_streamp strm, int windowBits) {
 }
 
 #endif
- 
- #endif
