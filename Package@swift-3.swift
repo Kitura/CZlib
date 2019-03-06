@@ -1,6 +1,3 @@
-// swift-tools-version:4.2
-// The swift-tools-version declares the minimum version of Swift required to build this package.
-
 /**
  * Copyright IBM Corporation 2016, 2017
  *
@@ -21,18 +18,8 @@ import PackageDescription
 
 let package = Package(
     name: "CZlib",
-    products: [
-        .library(name: "CZlib", targets: ["CZlib"]),
-    ],
-    dependencies: [
-    ],
-    targets: [
-        .systemLibrary(
-            name: "CZlib",
-            pkgConfig: "libz",
-            providers: [
-                .apt(["libz-dev"])
-            ]
-        )
+    pkgConfig: "libz",
+    providers: [
+        .Apt("libz-dev")
     ]
 )
