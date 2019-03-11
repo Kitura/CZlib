@@ -2,8 +2,6 @@
 
 Swift module maps for [zlib](https://www.zlib.net/), which allow you to use the zlib C library in your Swift project.
 
-Note - from Swift 4.2 you can pull the zlib library directly into your Swift project and will not need to use this repository (you can see an example of this in [Kitura-Compression](https://github.com/IBM-Swift/Kitura-Compression/tree/master/Sources/CZlib)).
-
 ## Usage
 
 #### Add dependencies
