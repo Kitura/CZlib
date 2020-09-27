@@ -6,10 +6,10 @@ Swift module maps for [zlib](https://www.zlib.net/), which allow you to use the 
 
 #### Add dependencies
 
-Add the `CZlib` package to the dependencies within your application’s `Package.swift` file. Substitute `"x.x.x"` with the latest `CZlib` [release](https://github.com/IBM-Swift/CZlib/releases).
+Add the `CZlib` package to the dependencies within your application’s `Package.swift` file. Substitute `"x.x.x"` with the latest `CZlib` [release](https://github.com/Kitura/CZlib/releases).
 
 ```swift
-.package(url: "https://github.com/IBM-Swift/CZlib.git", from: "x.x.x")
+.package(url: "https://github.com/Kitura/CZlib.git", from: "x.x.x")
 ```
 
 Add `CZlib` to your target's dependencies:
